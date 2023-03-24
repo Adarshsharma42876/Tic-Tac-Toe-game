@@ -5,7 +5,7 @@
 }
 
 nav{
-    background-color: rgb(37, 9, 37);
+    background-color: red;
     color: white;
     height: 65px;
     font-size: 27px;
@@ -26,12 +26,15 @@ nav ul{
 }
 
 .container{
+    background-color: rgb(110, 202, 214);
     display: grid;
     grid-template-rows: repeat(3, 10vw);
     grid-template-columns: repeat(3, 10vw);
     font-family: 'Roboto', sans-serif;
     position: relative;
 }
+
+
 
 .box{
     border: 2px solid black;
@@ -84,21 +87,19 @@ nav ul{
     margin: 0 23px;
     padding: 1px 18px;
     background: #f3e7f9;
-    border-radius: 6px;
+    border-radius: 15px;
     cursor: pointer;
+    text-align: center;
     font-family: 'Baloo Bhaina 2';
     font-size: 15px;
     font-weight: bolder;
 }
 
-.line{
-    background-color: black;
-    height: 3px;
-    width: 0;
-    position: absolute;
-    background-color: #911d91;
-    transition: width 1s ease-in-out;
+#reset:hover{
+    background-color: aliceblue;
 }
+
+
 
 @media screen and (max-width: 950px)
 {
